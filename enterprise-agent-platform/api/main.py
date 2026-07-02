@@ -1,18 +1,18 @@
 from fastapi import FastAPI
 
-from api.routes.testing import (
+from routes.testing import (
     router as testing_router
 )
 
-from api.routes.auth import (
+from routes.auth import (
     router as auth_router
 )
 
-from api.routes.reports import (
+from routes.reports import (
     router as reports_router
 )
 
-from api.middleware.auth_middleware import (
+from middleware.auth_middleware import (
     auth_middleware
 )
 

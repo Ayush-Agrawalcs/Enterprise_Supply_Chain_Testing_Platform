@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-from api.schemas.request import TestRequest
-from api.schemas.response import TestResponse
+from schemas.request import TestRequest
+from schemas.response import TestResponse
 import sys
 from pathlib import Path
 
